@@ -9,9 +9,9 @@ Mingyuan Zhou, "Beta-negative binomial process and exchangeable random partition
 
 # If you find the code helpful, please cite the paper:
 
-@inproceedings{BNBP_EPPF2014,
-  title={Beta-Negative Binomial Process and Exchangeable Random Partitions for Mixed-Membership Modeling},
-  author={M. Zhou},
-  booktitle={NIPS},
-  year={2014},
-}
+    @inproceedings{BNBP_EPPF2014,
+      title={Beta-Negative Binomial Process and Exchangeable Random Partitions for Mixed-Membership Modeling},
+      author={M. Zhou},
+      booktitle={NIPS},
+      year={2014},
+    }
