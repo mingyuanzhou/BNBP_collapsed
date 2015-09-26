@@ -7,7 +7,7 @@ Collapsed Gibbs sampler for the beta-negative binomial process multionmial topic
 
 Mingyuan Zhou, "Beta-negative binomial process and exchangeable random partitions for mixed-membership modeling," Neural Information Processing Systems (NIPS2014), Montreal, Canada, Dec. 2014
 
-# If you find the code helpful, please cite the paper:
+# If you find the code helpful, please cite:
 
     @inproceedings{BNBP_EPPF2014,
       title={Beta-Negative Binomial Process and Exchangeable Random Partitions for Mixed-Membership Modeling},
