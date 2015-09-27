@@ -117,7 +117,7 @@ end
 n_dot_k = sum(DSZS,1)';
 ell_dot_k=sum(DSZS>0,1)';
 
-a0=1e-2; b0=1e-2; a0=1e-2; b0=1e-2;
+a0=1e-2; b0=1e-2;
 loglike=[];
 loglikeTrain=[];
 
@@ -186,7 +186,7 @@ for iter=1:maxIter
             %% Fully collapsed inference, the beta process weights p_k are marginalized out
             [WSZS,DSZS,n_dot_k,ZS] = PFA_BNBP_collapsed(WSZS,DSZS,n_dot_k,ZS,WS,DS,r_i,c,gamma0,eta);
             
-            %% Delete unsed atoms
+            %% Delete unused atoms
             K=nnz(n_dot_k);
             [kk,kki,kkj] = unique(ZS);
             ZS=kkj;
